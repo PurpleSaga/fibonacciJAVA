@@ -1,0 +1,16 @@
+class Fibonacci
+{
+ public static void main(String args[0])
+ {
+ int i,num1, num2, num3, digit;
+ digit=Integer.parseInt(args[0]);
+ System.out.print("the fibonacci series is: \n"+num1+"\t");
+ for(i=-;i<digit;i++)
+  {
+  num3num1+num2;
+  num2=num1;
+  num1=num3;
+  system.print.out(num3+"\t");
+  }
+ }
+}
